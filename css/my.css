@@ -1,7 +1,81 @@
 /* Here is your custom css styles. */
 
-/* hexo-filter-github-emojis */
-.github-emoji{
+
+/* hexo-tag-emojis-byhj */
+.emoji {
+    height: 2em;
+    width: 2em;
+    display: inline-block !important;
+    position: relative;
+    top: 10px;
+    margin: 0 3px !important;
+    padding: 0;
+}
+
+.emoji:hover {
+    animation: emoji-face 5s infinite ease-in-out;
+}
+
+@keyframes emoji-face {
+    2% {
+        transform: translate(0, 1.5px) rotate(1.5deg);
+    }
+
+    4% {
+        transform: translate(0, -1.5px) rotate(-0.5deg);
+    }
+
+    6% {
+        transform: translate(0, 1.5px) rotate(-1.5deg);
+    }
+
+    8% {
+        transform: translate(0, -1.5px) rotate(-1.5deg);
+    }
+
+    10% {
+        transform: translate(0, 2.5px) rotate(1.5deg);
+    }
+
+    12% {
+        transform: translate(0, -0.5px) rotate(1.5deg);
+    }
+
+    14% {
+        transform: translate(0, -1.5px) rotate(1.5deg);
+    }
+
+    16% {
+        transform: translate(0, -0.5px) rotate(-1.5deg);
+    }
+
+    18% {
+        transform: translate(0, 0.5px) rotate(-1.5deg);
+    }
+
+    20% {
+        transform: translate(0, -1.5px) rotate(2.5deg);
+    }
+
+    22% {
+        transform: translate(0, 0.5px) rotate(-1.5deg);
+    }
+
+    24% {
+        transform: translate(0, 1.5px) rotate(1.5deg);
+    }
+
+    26% {
+        transform: translate(0, 0.5px) rotate(0.5deg);
+    }
+
+    28% {
+        transform: translate(0, 0.5px) rotate(1.5deg);
+    }
+}
+
+/* hexo-filter-github-emojis  洪卫 shw2018 add 2019.08.15*/
+.github-emoji {
     height: 2em;
     width: 2em;
     display: inline-block !important;
@@ -9,53 +83,10 @@
     margin: 0 3px !important;
     padding: 0;
 }
-.github-emoji:hover{
+
+.github-emoji:hover {
     animation: emoji-face 5s infinite ease-in-out;
 }
-@keyframes emoji-face {
-    2% {
-        transform: translate(0, 1.5px) rotate(1.5deg);
-    }
-    4% {
-        transform: translate(0, -1.5px) rotate(-0.5deg);
-    }
-    6% {
-        transform: translate(0, 1.5px) rotate(-1.5deg);
-    }
-    8% {
-        transform: translate(0, -1.5px) rotate(-1.5deg);
-    }
-    10% {
-        transform: translate(0, 2.5px) rotate(1.5deg);
-    }
-    12% {
-        transform: translate(0, -0.5px) rotate(1.5deg);
-    }
-    14% {
-        transform: translate(0, -1.5px) rotate(1.5deg);
-    }
-    16% {
-        transform: translate(0, -0.5px) rotate(-1.5deg);
-    }
-    18% {
-        transform: translate(0, 0.5px) rotate(-1.5deg);
-    }
-    20% {
-        transform: translate(0, -1.5px) rotate(2.5deg);
-    }
-    22% {
-        transform: translate(0, 0.5px) rotate(-1.5deg);
-    }
-    24% {
-        transform: translate(0, 1.5px) rotate(1.5deg);
-    }
-    26% {
-        transform: translate(0, 0.5px) rotate(0.5deg);
-    }
-    28% {
-        transform: translate(0, 0.5px) rotate(1.5deg);
-    }
-}
 
 @keyframes emoji-face {
     2% {
@@ -115,6 +146,29 @@
     }
 }
 
+/* 相册加密样式 洪卫 shw2018 add 2019.08.29 */
+.hbe-input-container {
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    margin: 100px auto;
+}
+
+/* 相册加密按键样式 洪卫 shw2018 add 2019.08.29 */
+.hbe-input-container .btn-decrypt {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3f90ff;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
 
 /* 底部footer 红心样式 洪卫 shw2018 add 2019.09.11 */
 #heart {
@@ -1170,5 +1224,11 @@
 @media  only  screen  and（max-width：601 px）{
      header  .brand-logo  .logo-span {
          font-size：1.1 rem ;
+    }
+}
+
+@media  only  screen  and（max-width：601 px）{.
+     bg -cover  .title center-align {
+         font-size：2.1 rem ;
     }
 }
