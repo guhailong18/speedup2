@@ -1215,26 +1215,10 @@
     }
 }
 
-@media  only  screen  and（max-width：601 px）{.
-     bg -cover  .title {
-         font-size：2.1 rem ;
-    }
-}
 
-@media  only  screen  and（max-width：601 px）{
-     header  .brand-logo  .logo-span {
-         font-size：1.1 rem ;
-    }
-}
 
-@media  only  screen  and（max-width：601 px）{
-     .container .row .title {
-         font-size：2.1 rem ;
-    }
-}
-
-@media  only  screen  and（max-width：601 px）{
-     .nav-wrapper  .brand-logo  .logo-span {
-         font-size：1.1 rem ;
+@media screen and (max-width: 601px) {
+    .row .brand .title {
+        font-size:2rem;
     }
 }
